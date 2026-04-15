@@ -121,6 +121,10 @@ p {
   }
 }
 
+video {
+  width: 25%;
+}
+
 @media(max-width: 1070px) {
   .img-left {
     left: 0%;
@@ -128,5 +132,9 @@ p {
   
   .img-right {
     right: 0%;
+  }
+
+  video {
+    width: 50%;
   }
 }
